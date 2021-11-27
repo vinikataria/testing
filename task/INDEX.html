@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <!--meta tags--->
+    
+    <!--end meta tags---->
+     <!-- css---->
+	<link rel="stylesheet" href="style.css">
+	      <title>login</title>
+</head>
+    <body>
+        <div class="main_site">
+              <div class="main">
+                <div class="button_box ">
+                    <div id="btn"></div>
+                     <button type="button" class="button_class" onclick="Singin()">Sing in</button>
+                     <button type="button" class="button_class" onclick="Singup()">Sing Up</button>
+                </div>
+                    <div>
+                      <form class="sing_in" id="Log_in">
+                          <input type="text" class="input_field" placeholder="User Id" required><br>
+                          <input type="text" class="input_field" placeholder="Password" required><br>
+                          <input type="checkbox" class="check_box"><span>Remember Password</span>
+                          <button type="submit" class="submit_btn">Log in</button>
+                      </form>
+                      </div>
+                      <div class="">
+                      <form class="sing_in" id="register">
+                        <input type="text" class="input_field" placeholder="User id" required><br>
+                        <input type="text" class="input_field" placeholder="Email id" required><br>
+                        <input type="text" class="input_field" placeholder="Password" required><br>
+                        <input type="checkbox" class="check_box"><span>I Agree Terms And Condition</span>
+                        <button type="submit" class="submit_btn">Sing Up</button>
+                    </form>
+                    </div>
+              </div>
+        </div>
+        <script>
+            
+           var x = document.getElementById("Log_in");
+           var y = document.getElementById("register");
+           var z = document.getElementById("btn");
+
+           function Singup(){
+               x.style.left ="-400px";
+               y.style.left ="50px";
+               z.style.left ="110px";
+           }
+
+           function Singin(){
+               x.style.left ="50px";
+               y.style.left ="450px";
+               z.style.left ="0px";
+           }
+           
+           
+
+        </script>
+    </body>
+    </HTML>

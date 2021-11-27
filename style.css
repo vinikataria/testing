@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+.main_site{
+    height: 100%;
+    width: 100%;
+    background-image:url(image/1.jpg);
+    background-position: center;
+    position: absolute;
+    background-size:cover ;
+
+}
+
+.main{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    background-color:#fff ;
+    margin: 50px auto;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.sing_in{
+    position: absolute;
+    top: 100px;
+    width: 280px;
+    transition: .5s;
+
+
+}
+
+.input_field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border:0px;
+    border-bottom: 1px solid #999;
+    background: transparent ;
+}
+
+.submit_btn{
+    width: 85%;
+    padding: 10px 30px;
+    display: block;
+    margin:auto;
+    background:linear-gradient(#ff105f, #ffad06);
+    border:0;
+    border-radius: 30px;
+}
+.check_box{
+    margin:30px 10px 30px 0;
+}
+
+span{
+    color:#777;
+    font-size: 12px;
+    bottom:68px;
+    position: absolute;
+}
+
+.button_box{
+    width:220px;
+    margin:35px auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+.button_class{
+    padding: 10px 30px;
+    background: transparent;
+    border:0;
+    outline:none;
+    position: relative;
+    border:0;
+}
+
+#btn{
+    top:0px;
+    left:0px;
+    position: absolute;
+    width:110px;
+    height: 100%;
+    background: linear-gradient(#ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+#Log_in{
+    left: 50px;
+}
+
+#register{
+    left: 450px;
+}
